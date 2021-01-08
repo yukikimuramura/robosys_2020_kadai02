@@ -13,7 +13,7 @@
 1.ディレクトリに入る
 $cd ~/catkin_ws/src
 2.リポジトリをクローンする
-$git clone https://github.com/yukikimuramura/mypkg.git
+$git clone https://github.com/yukikimuramura/robosys_2020_kadai02.git
 3.一つ前のリポジトリに戻る
 $cd ..
 4.コンパイルする
@@ -21,7 +21,7 @@ $catkin_make
 5.rosを起動する
 $roscore
 6.ディレクトリに入る
-$cd ~/catkin_ws/src/mypkg/scripts/
+$cd ~/catkin_ws/src/robosys_2020_kadai02/scripts/
 7.実行できるようにそれぞれのプログラムのパーミッションを設定する
 $chmod +x count.py       
 $chmod +x twice.py     
