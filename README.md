@@ -30,9 +30,9 @@ $chmod +x four.py
 8.count.pyを実行する
 $roscore mypkg count.py
 9.twice.py,three.py,four.pyを実行する際それぞれ別の端末で実行する
-$roscore mypkg twice.py
-$roscore mypkg three.py
-$roscore mypkg four.py
+$rosrun mypkg twice.py
+$rosrun mypkg three.py
+$rosrun mypkg four.py
 ```
 ### Demo
 こちらが実際に動かした動画のURLです.
