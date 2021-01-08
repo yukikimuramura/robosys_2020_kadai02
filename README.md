@@ -11,28 +11,28 @@
 ### 実行手順
 ```
 1.ディレクトリに入る
-$cd ~/catkin_ws/src
+$ cd ~/catkin_ws/src
 2.リポジトリをクローンする
-$git clone https://github.com/yukikimuramura/robosys_2020_kadai02.git
+$ git clone https://github.com/yukikimuramura/robosys_2020_kadai02.git
 3.一つ前のリポジトリに戻る
-$cd ..
+$ cd ..
 4.コンパイルする
-$catkin_make
+$ catkin_make
 5.rosを起動する
-$roscore
+$ roscore
 6.ディレクトリに入る
-$cd ~/catkin_ws/src/robosys_2020_kadai02/scripts/
+$ cd ~/catkin_ws/src/robosys_2020_kadai02/scripts/
 7.実行できるようにそれぞれのプログラムのパーミッションを設定する
-$chmod +x count.py       
-$chmod +x twice.py     
-$chmod +x three.py       
-$chmod +x four.py
+$ chmod +x count.py       
+$ chmod +x twice.py     
+$ chmod +x three.py       
+$ chmod +x four.py
 8.count.pyを実行する
-$roscore mypkg count.py
+$ roscore mypkg count.py
 9.twice.py,three.py,four.pyを実行する際それぞれ別の端末で実行する
-$rosrun mypkg twice.py
-$rosrun mypkg three.py
-$rosrun mypkg four.py
+$ rosrun mypkg twice.py
+$ rosrun mypkg three.py
+$ rosrun mypkg four.py
 ```
 ### Demo
 こちらが実際に動かした動画のURLです.
